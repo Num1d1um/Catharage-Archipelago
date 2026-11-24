@@ -48,8 +48,10 @@ item_table: dict[str, ItemData] = {"Sentinel Keystone":   ItemData(0, IC.progres
 "Energy Cells":         ItemData(56, IC.filler, 0),
 "Plasteel":             ItemData(57, IC.filler, 0),
 "Exotic Matter":        ItemData(58, IC.filler, 0),
+"Fleet Member":         ItemData(59, IC.filler, 0),
+"Repair":               ItemData(60, IC.filler, 0),
 "Ambush":               ItemData(54, IC.trap, 0),
 }
-filler_items = ["Item Drop", "Credit Drop", "Scrap Drop", "Energy Cells", "Plasteel", "Exotic Matter", "Ambush"]
+filler_items = ["Item Drop", "Credit Drop", "Scrap Drop", "Energy Cells", "Plasteel", "Exotic Matter", "Ambush", "Fleet Member", "Repair"]
 
 item_name_to_id = {n: BASE_ID + d.offset for n, d in item_table.items()}
