@@ -1,4 +1,4 @@
-
+![catharage archipelago logo](https://github.com/Num1d1um/Catharage-Archipelago/blob/main/cathipelago.png)
 # Catharage
 
 ## Overview
